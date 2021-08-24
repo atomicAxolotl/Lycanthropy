@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "lll",
+    "l l",
+    "l l"
+  ],
+  "key": {
+    "l": {
+      "item": "lycanthropy:silver_ingot"
+    }
+  },
+  "result": {
+    "item": "lycanthropy:silver_leggings",
+    "count": 1
+  }
+}

@@ -1,6 +1,8 @@
 package com.atomicaxolotl.lycanthropy;
 
+import com.atomicaxolotl.lycanthropy.registry.ModEffects;
 import com.atomicaxolotl.lycanthropy.registry.ModBlocks;
+import com.atomicaxolotl.lycanthropy.registry.ModEntities;
 import com.atomicaxolotl.lycanthropy.registry.ModItems;
 import net.fabricmc.api.ModInitializer;
 import net.fabricmc.fabric.api.client.itemgroup.FabricItemGroupBuilder;
@@ -36,6 +38,7 @@ public class Lycanthropy implements ModInitializer {
 	public void onInitialize() {
 		ModItems.registerItems();
 		ModBlocks.registerBlocks();
+		ModEffects.registerEffects();
 
 	}
 }

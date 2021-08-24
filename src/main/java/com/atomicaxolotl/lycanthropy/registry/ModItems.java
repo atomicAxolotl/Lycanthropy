@@ -15,11 +15,11 @@ import net.minecraft.util.registry.Registry;
 public class ModItems {
 
     //items
-    public static final Item WOLFSBANE = new Item(new Item.Settings().group(Lycanthropy.ITEM_GROUP));
     public static final Item SILVER_INGOT = new Item(new Item.Settings().group(Lycanthropy.ITEM_GROUP));
 
     //block items
     public static final BlockItem SILVER_ORE = new BlockItem(ModBlocks.SILVER_ORE, new Item.Settings().group(Lycanthropy.ITEM_GROUP));
+    public static final BlockItem WOLFSBANE = new BlockItem(ModBlocks.WOLFSBANE,new Item.Settings().group(Lycanthropy.ITEM_GROUP));
 
     //tools
     public static final ToolItem SILVER_SWORD = new SwordItem(SilverToolMaterial.INSTANCE, 6, 1f, new Item.Settings().group(Lycanthropy.ITEM_GROUP));

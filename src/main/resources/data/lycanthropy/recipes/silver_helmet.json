@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "l/l",
+    "l l"
+  ],
+  "key": {
+    "l": {
+      "item": "lycanthropy:silver_ingot"
+    },
+    "/": {
+      "item": "minecraft:blaze_rod"
+    }
+  },
+  "result": {
+    "item": "lycanthropy:silver_helmet",
+    "count": 1
+  }
+}
