@@ -20,10 +20,10 @@
   "environment": "*",
   "entrypoints": {
     "main": [
-      "com.atomicaxolotl.lycanthropy.Lycanthropy"
+      "net.fabricmc.lycanthropy.Lycanthropy"
     ],
     "client": [
-      "mod.fabricmc.lycanthropy.LycanClient"
+      "net.fabricmc.lycanthropy.client.LycanClient"
     ]
 
   },
